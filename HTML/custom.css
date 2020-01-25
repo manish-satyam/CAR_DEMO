@@ -1,0 +1,66 @@
+body {
+  font-family: 'Bangers', cursive;
+}
+.car_image{
+  background-image: url(D-banner.jpg);
+  height: 100vh;
+  position: relative;
+}
+
+.car_auto {
+  color:rgb(18, 18, 19);
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  transform: translate(-50%,-50%);
+}
+
+
+.car_auto h1{
+  font-size: 2rem;
+  text-align: center;
+}
+
+.car_auto p{
+  font-size: 1rem;
+}
+
+.car_auto span {
+  color: rgb(228, 17, 17);
+  margin-left: 5rem;
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+.from_car {
+  text-align: center;
+}
+
+.from_car .harrier_car {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border:none;
+  border-radius: 2rem;
+  padding: .3rem;
+}
+
+.from_car button{
+  width: 40%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  padding: .2rem;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.harrier_model h3 {
+  font-size: 2rem;
+  position: relative;
+  margin-top: auto;
+  text-align: center;
+}
